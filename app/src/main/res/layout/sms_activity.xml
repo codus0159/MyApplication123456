@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="19dp"
+        android:text="Phone number" />
+
+    <EditText
+        android:id="@+id/etMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etNum"
+        android:layout_below="@+id/etNum"
+        android:layout_marginTop="21dp"
+        android:text="Message" />
+
+    <Button
+        android:id="@+id/btSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etNum"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/etNum"
+        android:text="SMS" />
+
+</RelativeLayout>
